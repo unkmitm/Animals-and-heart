@@ -1,0 +1,25 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    width: 100%;
+    height: 3rem;
+    color: #fff;
+    background-color: rgb(80, 101, 255);
+    border: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(105, 122, 253);
+}
+.animal-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,3 +1,4 @@
+import "./Animal.css"
 import { useState } from "react";
 import bird from "../images/bird.svg";
 import cat from "../images/cat.svg";
@@ -24,9 +25,9 @@ function Animal ({type}) {
     };
 
     return (
-        <div onClick={clickHandler}>
-            <img src = {animalObj[type]} alt="animals" />
-            <img src = {heart} alt="heart" style={{
+        <div className="animal-show" onClick={clickHandler}>
+            <img className="animal" src = {animalObj[type]} alt="animals" />
+            <img className="heart"  src = {heart} alt="heart" style={{
                 width : size + "px"
             }}/>
         </div>
