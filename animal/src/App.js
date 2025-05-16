@@ -1,8 +1,8 @@
 import Animal from "./Animal";
 import { useState } from "react";
 
-function randomAnimalGenerator () {
-    const animals = ['cat' , 'dog' , 'cow' , 'bird' , 'aligator'];
+function randomAnimalGenerator () { 
+    const animals = ['cat' , 'dog' , 'cow' , 'bird' , 'gator' , 'horse'];
     const randoms = Math.floor(Math.random() * animals.length);
     
     return animals[randoms];
